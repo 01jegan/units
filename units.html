@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>CSS UNITS</title>
+	  <style>
+.container{
+    margin: 0 200px;
+    padding: 30px;
+	background:#ff582191;
+	}
+html {
+	font-size:25px;
+	}
+.diff{
+font-size:20px;
+}
+h1{
+	font-size:60px;
+	text-align:center;
+	text-decoration:underline dotted;
+}
+.head p{
+	font-size:30px;
+	
+}
+.head1 p{
+	font-size:40px;
+	color:blue;
+}
+.head1 li{
+	font-size:40px;
+	color:red;
+}
+.abso h2{
+	font-size:50px;
+	font-style:italic;
+	text-decoration:underline red;
+}
+.abso span{
+	color:red;
+}
+/* .abso p{ */
+	/* font-size:30px; */
+/* } */
+.abso li{
+	font-size:40px;
+	margin-bottom:15px;
+}
+.cm{
+	font-size:1cm;
+	color:blue;
+}
+#mm{
+	font-size:5mm;
+	color:blue;
+}
+.in{
+	font-size:1in;
+	color:blue;
+}
+.px{
+	font-size:1px;
+	color:blue;
+}
+.pt{
+	font-size:1pt;
+	color:blue;
+}
+.pc{
+	font-size:1pc;
+	color:blue;
+}
+.diff{
+	font-size:30px;
+}
+.em{
+	font-size:2em;
+	color:blue;
+}
+.ex{
+	font-size:1ex;
+	color:blue;
+}
+.ch{
+	font-size:1ch;
+	color:blue;
+}
+.rem{
+	font-size:3rem;
+	color:blue;
+}
+.vw{
+	font-size:1vw;
+	color:blue;
+}
+
+.vh{
+	font-size:1vh;
+	color:blue;
+}
+.vmin{
+	font-size:1vmin;
+	color:blue;
+}
+.vmax{
+	font-size:1vmax;
+	color:blue;
+}
+.per{
+	width:50%;
+}
+.pe{
+	width:100px;
+}
+</style>
+<body>
+<section class="container">
+	<h1>CSS UNITS</h1>
+	
+	<div class="head">
+
+		<p>*CSS has several different units for expressing a length.</p>
+
+		<p>*Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.</p>
+
+		<p>*Length is a number followed by a length unit, such as 10px, 2em, etc.</p>
+	</div>
+	<div class="head1">
+		<p>There are two types of length units: </p>
+		<ul>
+			<li>Absolute</li>
+			<li>Relative</li>
+		</ul>
+	</div>
+	<div class="abso">
+		<h2>Absolute Lengths</h2>
+		<p>The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.</p>
+		<ul>
+			<li><span>cm-</span>	centimeters 1cm=37px</li>
+				<p class="cm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+				
+			
+			<li><span>mm-</span>	millimeters 1mm=3.7px </li>
+				<p id="mm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+				
+			<li><span>in-</span>	inches 1in=96px</li>
+				<p class="in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+			<li><span>px-</span> *pixels 1px </li>
+				<p class="px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+			<li><span>pt-</span>	points 1pt</li>
+				<p class="pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+			<li><span>pc-</span>	picas pc</li>
+				<p class="pc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		</ul>
+		<div>
+		<h2>Relative Lengths</h2>
+		<p>Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium.</p>
+	
+		<ul>
+		<div class="diff">
+		<li><span>em-</span>	</li>
+			<p class="em">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		</div>
+		<li><span>rem-</span>	</li>
+			<p class="rem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		<li><span>vw-</span>	</li>
+			<p class="vw">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		<li><span>vh-</span>	</li>
+			<p class="vh">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		<li><span>ex-</span>	</li>
+			<p class="ex">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		<li><span>ch-</span>	</li>
+			<p class="ch">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		<li><span>V min-</span>	</li>
+			<p class="vmin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		<li><span>V max-</span>	</li>
+			<p class="vmax">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit vehicula, placerat purus cursus, pretium augue.</p>
+		<li><span>percentage-</span>	</li>
+		<img src="img2.jpg" class="per">
+		<div class="pe">
+		<img src="img2.jpg">
+		</div>
+		</ul>
+	</div>
+	
+	</div>
+	
+	
+	
+	
+</section>	
+</body>
+</html>
